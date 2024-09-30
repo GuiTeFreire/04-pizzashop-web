@@ -14,7 +14,7 @@ const orderStatusMap: Record<OrderStatus, string> = {
   canceled: 'Cancelado',
   delivered: 'Entregue',
   delivering: 'Em entrega',
-  processing: 'Processando',
+  processing: 'Em preparo',
 }
 
 export function OrderStatus({ status }: OrderStatusProps) {
